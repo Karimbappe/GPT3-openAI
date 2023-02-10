@@ -1,70 +1,60 @@
-# GPT3-openAI# Getting Started with Create React App
+<h1>GPT3-OpenAI</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<img width="1434" alt="Capture d’écran 2023-02-10 à 12 03 15" src="https://user-images.githubusercontent.com/78148549/218105009-402ccbeb-7a37-41d6-b7ec-83a1012b841f.png"> <img width="1433" alt="Capture d’écran 2023-02-10 à 14 29 57" src="https://user-images.githubusercontent.com/78148549/218105088-cb56a9e6-5f54-41d6-823f-bb84e0389334.png"> <img width="1425" alt="Capture d’écran 2023-02-10 à 14 30 30" src="https://user-images.githubusercontent.com/78148549/218105113-071c825c-fcf3-4849-8ce0-4f77a7b9c308.png">
+ <img width="1432" alt="Capture d’écran 2023-02-10 à 14 30 49" src="https://user-images.githubusercontent.com/78148549/218105135-836798ed-3b8c-41dd-b587-f430b91aee1d.png"> <img width="1410" alt="Capture d’écran 2023-02-10 à 14 31 10" src="https://user-images.githubusercontent.com/78148549/218105163-97e4880c-307d-4d62-ac16-0bc3945b5212.png"> <img width="1421" alt="Capture d’écran 2023-02-10 à 14 31 44" src="https://user-images.githubusercontent.com/78148549/218105186-f27604bc-0384-4134-acec-ac0cea67c813.png">
+ <img width="1429" alt="Capture d’écran 2023-02-10 à 14 32 08" src="https://user-images.githubusercontent.com/78148549/218105216-ac49b2e5-bee2-4981-951e-45b1478d0b15.png">
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Bienvenue dans le dépôt GPT3-OpenAI ! Ce projet est un simulateur de modèle OpenAI GPT-3 en React. Il a été créé pour m'aider à mieux comprendre comment organiser les fichiers d'un projet React et comment découper mes composants React de manière efficace.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Prérequis :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Avant de commencer à utiliser ce projet, vous devez avoir installé Node.js et npm sur votre ordinateur.
 
-### `npm run eject`
+<h4>Installation :</h4>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clonez ce dépôt sur votre ordinateur local.
+  bash
+  Copy code
+git clone https://github.com/your-username/GPT3-OpenAI-Simulator.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Accédez au répertoire du projet.
+  bash
+  Copy code
+  cd GPT3-OpenAI-Simulator
+  
+3. Installez les dépendances du projet en utilisant la commande suivante.
+  Copy code
+  npm install
+  
+4. Lancez le projet en utilisant la commande suivante.
+  sql
+  Copy code
+  npm start
+  
+Vous pouvez maintenant accéder à l'application en utilisant un navigateur web à l'adresse http://localhost:3000.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Organisation de l'arborescence de fichiers
+L'arborescence de fichiers de ce projet est conçue pour être claire et facile à comprendre. Les fichiers importants sont organisés de la manière suivante :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+src: Ce répertoire contient tous les fichiers source de l'application.
 
-## Learn More
+src/components: Ce répertoire contient tous les composants React de l'application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+src/containers: Ce répertoire contient tous les containers qui sont nécessaires à la construction de la page.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+src/assets: Ce répertoire contient toutes les ressources graphiques et autres types de fichiers utilisés dans l'application.
 
-### Code Splitting
+Découpage des composants React:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Dans ce projet, les composants React sont découpés en petits composants autonomes pour une maintenance plus facile et une réutilisation accrue. Chaque composant est responsable d'une seule tâche et est conçu de manière à pouvoir être utilisé dans d'autres projets.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Conclusion
+Ce projet GPT3-OpenAI Simulator est conçu pour vous aider à comprendre comment organiser les fichiers de votre projet React et comment découper vos composants React de manière efficace. N'hésitez pas à explorer le code source pour en savoir plus sur comment il a été créé et comment vous pouvez le personnaliser pour vos propres besoins.
