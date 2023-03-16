@@ -21,40 +21,38 @@ Avant de commencer à utiliser ce projet, vous devez avoir installé Node.js et 
 <h4>Installation :</h4>
 
 1. Clonez ce dépôt sur votre ordinateur local.
-  bash
-  Copy code
-git clone https://github.com/your-username/GPT3-OpenAI-Simulator.git
+```
+git clone https://github.com/Karimbappe/GPT3-openAI.git
+```
 
 2. Accédez au répertoire du projet.
-  bash
-  Copy code
-  cd GPT3-OpenAI-Simulator
+ ```
+  cd GPT3-OpenAI
+  ```
   
 3. Installez les dépendances du projet en utilisant la commande suivante.
-  Copy code
+  ```
   npm install
+  ```
   
 4. Lancez le projet en utilisant la commande suivante.
-  sql
-  Copy code
+ ```
   npm start
+  ```
   
 Vous pouvez maintenant accéder à l'application en utilisant un navigateur web à l'adresse http://localhost:3000.
 
 Organisation de l'arborescence de fichiers
 L'arborescence de fichiers de ce projet est conçue pour être claire et facile à comprendre. Les fichiers importants sont organisés de la manière suivante :
 
-src: Ce répertoire contient tous les fichiers source de l'application.
-
-src/components: Ce répertoire contient tous les composants React de l'application.
-
-src/containers: Ce répertoire contient tous les containers qui sont nécessaires à la construction de la page.
-
-src/assets: Ce répertoire contient toutes les ressources graphiques et autres types de fichiers utilisés dans l'application.
+src: Ce répertoire contient tous les fichiers source de l'application.<br>
+src/components: Ce répertoire contient tous les composants React de l'application.<br>
+src/containers: Ce répertoire contient tous les containers qui sont nécessaires à la construction de la page.<br>
+src/assets: Ce répertoire contient toutes les ressources graphiques et autres types de fichiers utilisés dans l'application.<br>
 
 Découpage des composants React:
 
-Dans ce projet, les composants React sont découpés en petits composants autonomes pour une maintenance plus facile et une réutilisation accrue. Chaque composant est responsable d'une seule tâche et est conçu de manière à pouvoir être utilisé dans d'autres projets.
+Dans ce projet, les composants React sont découpés en petits composants autonomes pour une maintenance plus facile et une réutilisation accrue.<br> Chaque composant est responsable d'une seule tâche et est conçu de manière à pouvoir être utilisé dans d'autres projets.<br>
 
-Conclusion
-Ce projet GPT3-OpenAI Simulator est conçu pour vous aider à comprendre comment organiser les fichiers de votre projet React et comment découper vos composants React de manière efficace. N'hésitez pas à explorer le code source pour en savoir plus sur comment il a été créé et comment vous pouvez le personnaliser pour vos propres besoins.
+Conclusion:
+Ce projet GPT3-OpenAI est conçu pour vous aider à comprendre comment organiser les fichiers de votre projet React et comment découper vos composants React de manière efficace. N'hésitez pas à explorer le code source pour en savoir plus sur comment il a été créé et comment vous pouvez le personnaliser pour vos propres besoins.
