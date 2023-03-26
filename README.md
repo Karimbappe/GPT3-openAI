@@ -40,7 +40,6 @@ git clone https://github.com/Karimbappe/GPT3-openAI.git
   npm start
   ```
   
-Vous pouvez maintenant accéder à l'application en utilisant un navigateur web à l'adresse http://localhost:3000.
 
 Organisation de l'arborescence de fichiers
 L'arborescence de fichiers de ce projet est conçue pour être claire et facile à comprendre. Les fichiers importants sont organisés de la manière suivante :
